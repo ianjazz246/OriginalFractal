@@ -2,9 +2,6 @@ int iters = 1;
 int curveIterations = 11;
 color initialClr = color(102,204,255);
 color finalClr = color(255,153,204);
-enum DIR {
-  UP, DOWN, LEFT, RIGHT
-}
 
 void setup() {
   size(500, 500);
