@@ -23,7 +23,7 @@ void draw() {
 
 void curve(int n, float x, float y, float size, int clr) {
   if (n <= 0) {
-    stroke(lerpColor(initialClr, finalClr, (float)(x) / 400));
+    //stroke(lerpColor(initialClr, finalClr, (float)(x) / 400));
     //stroke(finalClr);
     line(x, y, x+size, y);
     line(x+size, y, x+size, y+size);
