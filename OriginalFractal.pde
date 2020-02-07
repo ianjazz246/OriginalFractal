@@ -12,7 +12,7 @@ void setup() {
 }
 
 void draw() {
-  background(220, 220, 220);  
+  background(220, 220, 220);
   curve(curveIterations, 400, 200, 6, color(0, 0, 0));
   /*if (iters < 100) {
     pushMatrix();
@@ -45,7 +45,7 @@ void curve(int n, float x, float y, float size, int clr) {
     //translate(-x, -y);
     
     //stroke(clr);
-    clr = lerpColor(initialClr, finalClr, (float)(n) / curveIterations);
+    //clr = lerpColor(initialClr, finalClr, (float)(n) / curveIterations);
     //clr = color((int)(255 * Math.random()),(int)(255 * Math.random()),(int)(255 * Math.random()));//1 << 16 + 1 << 8 + 1;
     curve(n-1, 0, 0, size, clr);
     translate(size/2, size/2);
@@ -53,7 +53,7 @@ void curve(int n, float x, float y, float size, int clr) {
     
     //translate(-size/2, -size/2);
     
-    fill(clr);
+    //fill(clr);
     curve(n-1, 0, 0, size, clr);
     
     
